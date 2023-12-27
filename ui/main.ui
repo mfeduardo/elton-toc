@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>643</width>
+    <height>416</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Elton TOC</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>50</y>
+      <width>601</width>
+      <height>341</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Texto</string>
+    </property>
+    <widget class="QTextEdit" name="input_texto">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>581</width>
+       <height>141</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="bt_split">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>170</y>
+       <width>281</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 700 9pt &quot;Segoe UI&quot;;</string>
+     </property>
+     <property name="text">
+      <string>RETIRAR ESPAÇOS DO TEXTO</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="bt_copiar">
+     <property name="geometry">
+      <rect>
+       <x>300</x>
+       <y>170</y>
+       <width>291</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 700 9pt &quot;Segoe UI&quot;;</string>
+     </property>
+     <property name="text">
+      <string>COPIAR TEXTO</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="bt_reset">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>260</y>
+       <width>581</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 700 9pt &quot;Segoe UI&quot;;</string>
+     </property>
+     <property name="text">
+      <string>RESET</string>
+     </property>
+    </widget>
+    <widget class="Line" name="line">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>240</y>
+       <width>581</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>20</y>
+      <width>211</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 700 14pt &quot;Segoe UI&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Elton TOC</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="Sobre">
+   <property name="text">
+    <string>Elton TOC v. 1.0 | Eduardo Filgueiras </string>
+   </property>
+   <property name="iconText">
+    <string>Elton TOC v. 1.0 | Eduardo Filgueiras </string>
+   </property>
+   <property name="toolTip">
+    <string>Elton TOC v. 1.0 | Eduardo Filgueiras</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
